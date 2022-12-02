@@ -320,6 +320,7 @@ section {
 
 .information-btn {
   background: none;
+  border: none;
   color: var(--text-color);
   font-weight: 300;
   margin: 1rem 0;
