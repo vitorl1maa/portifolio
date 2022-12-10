@@ -59,6 +59,6 @@ const scrollAnimation = ScrollReveal ({
   reset: true
 });
 
-scrollAnimation.reveal('.home-img', {delay:400, origin:'top'});
-scrollAnimation.reveal('.home-img', {delay:400, origin:'top'});
+scrollAnimation.reveal('.home-img', {delay:200, origin:'top'});
+scrollAnimation.reveal('.home-img', {delay:200, origin:'top'});
 scrollAnimation.reveal('.about, .projects, .other-projects, .cta, .resume, .contact', {delay: 200, origin:'top'} );
