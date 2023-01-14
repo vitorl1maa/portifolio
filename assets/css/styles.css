@@ -718,7 +718,7 @@ form .send-btn:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 1rem;
     text-align: center;
   }
 
