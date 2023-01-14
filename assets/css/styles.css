@@ -128,7 +128,7 @@ section {
 
 .profile-content-img img {
   max-width: 100%;
-  width: 600px;
+  width: 400px;
   height: auto;
   border-radius: 100%;
 }
@@ -220,7 +220,7 @@ section {
 
 .about-img img {
   max-width: 100%;
-  width: 90%;
+  width: 100%;
   height: auto;
   border-radius: 10px;
   
