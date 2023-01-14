@@ -396,8 +396,12 @@ section {
 
 }
 
+.education h5 {
+  margin-bottom: 4.4rem;
+}
+
 .experience {
-  margin-top: 5rem;
+  margin-top: 100px;
 }
 
 .box {
