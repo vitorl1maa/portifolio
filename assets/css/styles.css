@@ -703,6 +703,7 @@ form .send-btn:hover {
     text-align: center;
     margin-top: 80px;
     height: 100vh;
+    padding-bottom: 0;
   }
 
 
