@@ -52,6 +52,26 @@
   height: 30%;
 }
 
+@keyframes blinkBar {
+
+  0%,
+  100% {
+    opacity: 1;
+
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes animeteAbout {
+  50% {
+    top: -40px;
+
+  }
+
+}
 
 body {
   background: var(--bg-color);
@@ -128,7 +148,7 @@ section {
 
 .profile-content-img img {
   max-width: 100%;
-  width: 400px;
+  width: 500px;
   height: auto;
   border-radius: 100%;
 }
@@ -159,18 +179,9 @@ section {
   color: var(--text-color);
   
   opacity: 1;
-  animation: pisca .7s infinite;
+  animation: blinkBar .7s infinite;
 }
 
-@keyframes pisca {
-  0%, 100% {
-    opacity: 1;
-
-  }
-  50% {
-    opacity: 0;
-  }
-}
 
 .home-text h6 {
   font-size: 18px;
@@ -223,6 +234,9 @@ section {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  animation: animeteAbout 4s linear infinite;
+  position: relative;
+  top: -1px;
   
 }
 
